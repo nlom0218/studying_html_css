@@ -13,7 +13,42 @@ p {
   color: white;
   font-size: 30px;
 }
+.father1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.father2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.box {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid yellow;
+  margin: 0px 0px 10px 20px;
+}
+
+.box2 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+  display: block;
+  border: 3px solid black;
+  margin: 10px 10px;
+}
+
+.fake {
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  background-color: burlywood;
+  display: block;
+}
 
 body {
-  background-color: black;
+  background-color: violet;
 }

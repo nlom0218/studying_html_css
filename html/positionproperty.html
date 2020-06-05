@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      body, html { height: 100%; margin: 0%; padding: 0%; }이것은 브라우저가
+      갖고있는 디폴트 값을 상쇄시키기 위해!
+    </p>
+    <p>position: static; - 디폴트 값, element를 붙이면 거기 그대로 있는다</p>
+    <p>
+      position: fixed; - element가 그 위치에 오버랩해서 고정되는것, 그렇기
+      때문에 스크롤해도 볼 수 있다
+    </p>
+    <p>postion: absolute; - 부모관계 무시</p>
+    <p>postion: relative; - 부모관계 성립</p>
+    <p>
+      absolute 포지션을 부모 element에 상대적으로 사용하려면 부모 element에게
+      relative 포지션을 먼저 설정해줘야 한다. 그게 설정되면 차이들 element는
+      부모 element안에 위치할거다
+    </p>
+  </body>
+</html>
