@@ -1,3 +1,7 @@
+html,
+body {
+  height: 100%;
+}
 .indexh1 {
   background-color: red;
   height: 200px;
@@ -49,6 +53,9 @@ p {
   display: inline-block;
   border: 2px solid yellow;
   margin: 0px 0px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box2 {
@@ -81,4 +88,31 @@ p {
 
 body {
   background-color: violet;
+}
+
+.transbox {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box3 {
+  background-color: black;
+  font-size: 30px;
+  color: aqua;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  transition: transform 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box3:active {
+  transform: rotate(1turn);
+  color: black;
 }
